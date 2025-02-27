@@ -41,7 +41,7 @@ function Hero() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
                 className="flex items-center justify-center">
-                <img src="src\assets\hero.png" alt="" />
+                <img src="src/assets/hero.png" alt="" />
             </motion.div>
         </div>
     </section>

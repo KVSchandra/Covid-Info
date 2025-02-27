@@ -26,15 +26,15 @@ function Uses() {
                     </div>
                 </div>
                 <div>
-                    <img src="src\assets\uses\1.png" alt="" className='rounded-3xl' />
+                    <img src="src/assets/uses/1.png" alt="" className='rounded-3xl' />
                     <p className='text-gray-400 mt-4'>Coronavirus</p>
                     </div>
                     <div>
-                        <img src="src\assets\uses\2.png" alt="" className='rounded-3xl' />
+                        <img src="src/assets/uses/2.png" alt="" className='rounded-3xl' />
                         <p className='text-gray-400 mt-4'>Diagnostic</p>
                     </div>
                     <div>
-                        <img src="src\assets\uses\3.png" alt="" className='rounded-3xl' />
+                        <img src="src/assets/uses/3.png" alt="" className='rounded-3xl' />
                         <p className='text-gray-400 mt-4'>Symptoms</p>
                     </div>
             </div>
