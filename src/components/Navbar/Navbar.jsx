@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import Logo from "../../assets/logo.png"
 
 function Navbar() {
   return (
@@ -11,7 +12,7 @@ function Navbar() {
             {/* Logo Section */}
             <div>
                 <a href="#">
-                    <img src="src/assets/logo.png" alt="Logo" className='w-40'/>
+                    <img src={Logo} alt="Logo" className='w-40'/>
                 </a>
             </div>
             {/* NavLinks Section */}

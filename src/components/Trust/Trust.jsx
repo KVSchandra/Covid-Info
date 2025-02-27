@@ -1,4 +1,6 @@
 import React from 'react'
+import Icon1 from "../../assets/icon1.png"
+import Icon2 from "../../assets/icon2.png"
 
 function Trust() {
   return (
@@ -9,7 +11,7 @@ function Trust() {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-6 text-center md:text-left md:px-16 xl:px-32">
-            <img src="src/assets/icon1.png" alt="" className="mx-auto md:mx-0" />
+            <img src={Icon1} alt="" className="mx-auto md:mx-0" />
             <p className=" text-3xl font-semibold">Based on reliable sources</p>
             <p className="">
               We want our tool to be safe and reliable, so its logic is based on
@@ -21,7 +23,7 @@ function Trust() {
             </p>
           </div>
           <div className="space-y-6 text-center md:text-left md:px-16 xl:px-32">
-            <img src="src/assets/icon2.png" alt="" className="mx-auto md:mx-0" />
+            <img src={Icon2} alt="" className="mx-auto md:mx-0" />
             <p className="text-3xl font-semibold">Based on reliable sources</p>
             <p className="">
               We want our tool to be safe and reliable, so its logic is based on
